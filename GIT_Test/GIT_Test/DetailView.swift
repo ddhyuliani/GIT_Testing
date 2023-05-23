@@ -46,9 +46,10 @@ struct DetailView: View {
         }
         .foregroundColor(.orange)
         .toolbar {
-            // Orang ke 3
+            
             ToolbarItem(placement: .navigationBarTrailing) {
-                NavigationBarButtonView(isLoved: $isLoved)
+                // Orang ke 3
+                
             }
         }
         
