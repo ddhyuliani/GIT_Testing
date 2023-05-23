@@ -49,7 +49,11 @@ struct DetailView: View {
             
             ToolbarItem(placement: .navigationBarTrailing) {
                 // Orang ke 3
-                
+                Button {
+                    isLoved.toggle()
+                } label: {
+                    Image(systemName: isLoved ? "heart.fill" : "heart")
+                }
             }
         }
         
